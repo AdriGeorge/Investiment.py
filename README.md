@@ -1,2 +1,2 @@
 # JustForFun
-Little programs
+investment.py is my first program!
