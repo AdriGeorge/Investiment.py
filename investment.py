@@ -30,10 +30,9 @@ def investment_fund(investment, time, recurrence):
             total+=total*annual_return + total_for_one
         effettive_earning = float(total-time*investment)
         
-    return f"""
-            Total: {int(total)};
-            Deposited: {int(deposited)}; 
-            Earning: {int(effettive_earning)}"""       
+    return f"Total: {int(total)}\n";\
+           f"Deposited: {int(deposited)}\n;"\
+           f"Earning: {int(effettive_earning)}\n"       
 
 
 # Method for calculating the return 
