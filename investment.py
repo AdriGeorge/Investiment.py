@@ -43,9 +43,8 @@ def tantum_fund(tantum, time):
     for year in range(1,time):
         total += total * annual_return
     effettive_earning = float(total-tantum)
-    return f"""
-            Total: {int(total)}; 
-            Earning: {int(effettive_earning)}"""  
+    return f"Total: {int(total)}\n";\
+           f"Earning: {int(effettive_earning)}\n"     
 
 
 print("WELCOME!")
